@@ -1,0 +1,299 @@
+body {
+  padding-bottom: 500px;
+}
+h3 {
+  color: green;
+}
+
+p {
+  color: blueviolet;
+}
+
+/* Algum cometário */
+/* Mais um comentário */
+
+/* Classes */
+.paragraph {
+  background-color: black;
+  color: aqua;
+}
+
+/* ids */
+
+#exclusive {
+  background-color: purple;
+  color: yellow;
+  padding: 10px;
+}
+
+h2 {
+  border-bottom: 3px solid red;
+}
+
+.titulo {
+  border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+  border-bottom: 3px solid green;
+}
+
+/* nome de cores */
+.colorname {
+  color: crimson;
+}
+
+/* Hex */
+.hex {
+  color: #55a398;
+}
+.hex2 {
+  color: #00eaff;
+}
+
+/* aprofundando em hex */
+.simplehex {
+  color: #333;
+}
+
+.hex3 {
+  color: #a5f;
+}
+
+/* RGB */
+.rgb {
+  color: rgb(255, 0, 0);
+}
+.mixrgb {
+  color: rgb(199, 21, 47);
+}
+
+/* rgba */
+.rgba {
+  color: rgba(100, 199, 45, 0.3);
+}
+
+/* HSL */
+.hsl1 {
+  color: hsl(100, 20%, 50%);
+}
+.hsl2 {
+  color: hsl(201, 82%, 52%);
+}
+
+/* BACKGROUND-COLOR */
+.bg {
+  background-color: #333;
+  color: yellow;
+}
+.bg2 {
+  background-color: rgb(200, 20, 40);
+  color: #00eaff;
+}
+
+/* background opacity */
+.bg-opacity {
+  background-color: green;
+  opacity: 0.2;
+}
+
+.bg-opacity2 {
+  background-color: #999;
+  color: #000;
+  opacity: 0.8;
+}
+
+/* rgba com opacidade */
+.rgba-opacity {
+  background-color: rgba(90, 120, 20, 0.2);
+  color: #333;
+}
+
+/* bg image */
+.bg-image {
+  background-image: url(../img/nature.jpg);
+  padding: 10px;
+  color: white;
+}
+
+/* centralizando bg image */
+.not-center-bg,
+.center-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url(../img/bridge.jpg);
+}
+
+.center-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+/* Largura e altura */
+.height-width {
+  height: 200px;
+  width: 100px;
+  background-color: red;
+}
+
+.height-width2 {
+  height: 300px;
+  background-color: #333;
+}
+
+/* Padding */
+.widthoutpad {
+  background-color: #000;
+  color: white;
+}
+.widthpad {
+  padding: 20px;
+}
+
+/* Padding individual */
+.paddingind {
+  background-color: #222;
+  color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+/* shorthand padding */
+.shorthandpad {
+  background-color: #444;
+  padding: 6px 12px 18px 24px;
+}
+.shorthandpad2 {
+  background-color: #555;
+  padding: 10px 20px;
+}
+
+/* padding com width */
+.widthoutbox {
+  background-color: #444;
+  color: white;
+  width: 400px;
+  padding: 50px;
+}
+.borderbox {
+  background-color: #666;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* borda */
+.border {
+  border: 5px solid red;
+  padding: 10px;
+}
+.border2 {
+  border: 2px dotted #931;
+}
+
+/* Borda individual */
+.borderleft {
+  border-left: 3px solid red;
+  background-color: #222;
+  padding: 25px;
+}
+.borderbottom {
+  border-bottom: 5px double #399;
+  background-color: #222;
+  padding: 20px;
+}
+
+/* Borda arredondada */
+.roundedp {
+  border: 4px solid blue;
+  background-color: #000;
+  color: blue;
+  padding: 15px;
+  border-radius: 15px;
+}
+.roundedp2 {
+  background-color: #000;
+  color: blue;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+/* Margem  */
+.margin {
+  margin: 10px;
+  background-color: #222;
+}
+.margintop {
+  margin-top: 50px;
+  background-color: #444;
+  padding: 10px;
+}
+.marginshort {
+  background-color: #666;
+  margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.boxmodel {
+  margin: 20px;
+  padding: 15px 25px;
+  border: 3px solid #845;
+  border-radius: 7px;
+  width: 200px;
+  height: 400px;
+}
+
+/* text aligment */
+.textaligment {
+  text-align: right;
+}
+.container-center {
+  text-align: center;
+  width: 300px;
+  border: 1px solid red;
+}
+
+/* Text decoration */
+.underline {
+  text-decoration: underline;
+}
+.linetrough {
+  text-decoration: line-through;
+}
+.removeunderline {
+  text-decoration: none;
+  color: red;
+}
+
+/* text transform */
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: lowercase;
+}
+
+/* letter spacing */
+.spacing {
+  letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif {
+  font-family: Georgia;
+}
+.sans-serif {
+  font-family: Helvetica;
+}
+.monospace {
+  font-family: "courier new";
+}
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
